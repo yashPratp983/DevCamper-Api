@@ -2,7 +2,7 @@ const asyncHandler = require('../middleware/async');
 const User = require('../models/users')
 const path=require('path')
 const ErrorResponse = require('../utils/errorResponse');
-const sendEmail = require('../utils/sendEmail');
+const sendEmail = require('../utils/sendemail');
 const crypto=require('crypto');
 
 exports.register = asyncHandler(async (req, res, next) => {
