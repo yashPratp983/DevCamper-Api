@@ -1,6 +1,6 @@
 const ErrorResponse = require('../utils/errorResponse');
 const asyncHandler = require('../middleware/async');
-const Course = require('../models/Course');
+const Course = require('../models/course');
 const Bootcamp = require('../models/Bootcamp');
 
 // @desc      Get courses

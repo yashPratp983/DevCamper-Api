@@ -7,7 +7,7 @@ const {
   deleteCourse
 } = require('../controler/courses');
 
-const Course = require('../models/Course');
+const Course = require('../models/course');
 
 const router = express.Router({ mergeParams: true });
 
